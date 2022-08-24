@@ -12,7 +12,6 @@ var RootCmd = &cobra.Command{
 	Version: "v1.0.0",
 	Run: func(cmd *cobra.Command, args []string) {
 		str := strings.Join(args, " ")
-		fmt.Println(str)
 
 		strTrigg := ""
 		lowerCase := true
